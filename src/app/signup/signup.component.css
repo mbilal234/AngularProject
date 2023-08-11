@@ -1,0 +1,49 @@
+.main-body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    width:75%;
+    height:75%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow:auto;
+}
+
+.card-body{
+    width:40%;
+    height:40%;
+    text-align: center;
+}
+
+.input-group{
+    margin-top:15px;
+    margin-bottom:15px;
+    border-radius: 700px;
+}
+p{
+    margin-top:50px;
+}
+
+h3{
+    margin-top:70px;
+    margin-bottom:40px;
+    color:#1A488D;
+    font-family:'Libre Baskerville';
+}
+span:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color:#1A488D;
+}
+button{
+    background-color:#1A488D;
+    border:#1A488D;;
+}
+body{
+    background-image: linear-gradient(to right, #051937, #122f5b, #1f4682, #2e60ac, #3c7ad7);
+    font-family:'Inter';
+}

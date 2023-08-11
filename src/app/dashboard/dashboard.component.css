@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+}
+.image-container {
+    height: 15%; /* Initial height of 0, will be set by padding-bottom */
+    padding-bottom: 10%; /* Set the height as a percentage of the width */
+    overflow: hidden; /* Hide any overflow beyond the container */
+    background-color:#53687E;
+}
+.page-container{
+    position: relative;
+}
+.profile{
+    position: absolute;
+    top:100px;
+    width:30%;
+    margin-left:20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.picture-cards{
+    float:right;
+    width: 65%;
+}
+a{
+    margin:20px;
+}
+.picture{
+    width:250px;
+    height:auto;
+}
+.col{
+    margin:10px;
+}
+.picture:hover{
+    cursor:pointer;
+}
+button{
+    margin:8px;
+    border-radius:1.7rem;
+}
+svg{
+    margin:10px;
+}
+.margin-decide{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.margin-vertical{
+    margin-top:45px;
+    margin-bottom:45px;
+    font-weight: bold;
+    font-size:18px;
+}

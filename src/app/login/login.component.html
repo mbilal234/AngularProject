@@ -1,0 +1,24 @@
+<body>
+  <div class="main-body">  
+    <div class="card">
+        <div class="card-body">
+            <h3>SIGN IN</h3>
+            <form (ngSubmit)="onSubmit()" #f="ngForm">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input type="email" class="form-control" placeholder="Email" [(ngModel)]="user_email" ngModel name="email" #email="ngModel" required email>
+                </div>
+                <div>
+                  <h6 style="color:red;" *ngIf="!email.valid && email.touched">Please enter a valid email-address</h6>
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                  <input id="password" type="password" [(ngModel)]="user_password" class="form-control" name="password" placeholder="Password">
+                </div>
+                <button class="btn btn-primary btn-lg btn-block" type="submit" [disabled]="!f.valid">Login</button>
+                <p>New to the website? <span routerLink="/signup">Sign Up</span></p>
+              </form>
+        </div>
+    </div>
+</div>
+</body>
